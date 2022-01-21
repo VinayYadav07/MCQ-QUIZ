@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>Quiz</header>
+        <form id="quiz" name="quiz">
+            <div>
+                <p class="question">1. Who is the Father of our Nation ?</p>
+                <p><input type="radio" name="question1" id="gandhiji" value="Mahatma Gandhi"><label for="gandhiji">(A) Mahatma Gandhi</label></p>
+                <p><input type="radio" name="question1" id="bose" value="Subhash Chandra Bose"><label for="bose">(B) Subhash Chandra Bose</label></p>
+                <p><input type="radio" name="question1" id="modi" value="Narendra Modi"><label for="modi">(C) Narendra Modi</label></p>
+                <p><input type="radio" name="question1" id="nehru" value="Jawahar Lal Nehru"><label for="nehru">(D) Jawahar Lal Nehru</label></p>
+            </div>
+
+            <div>
+                <p class="question">2. Who was the first President of India ?</p>
+                <p><input type="radio" name="question2" id="Jawahar" value="Jawahar Lal Nehru"><label for="Jawahar">(A) Jawahar Lal Nehru</label></p>
+                <p><input type="radio" name="question2" id="Subhas" value="Subhas Chandra Bose"><label for="Subhas">(B) Subhas Chandra Bose</label></p>
+                <p><input type="radio" name="question2" id="Prasad" value="Dr. Rajendra Prasad"><label for="Prasad">(C) Dr. Rajendra Prasad</label></p>
+                <p><input type="radio" name="question2" id="Singh" value="Bhagat Singh"><label for="Singh">(D) Bhagat Singh</label></p>
+            </div>
+
+            <div>
+                <p class="question">3. Who invented Computer ?</p>
+                <p><input type="radio" name="question3" id="Brendan" value="Brendan Eich"><label for="Brendan">(A) Brendan Eich</label></p>
+                <p><input type="radio" name="question3" id="Page" value="Larry Page"><label for="Page">(B) Larry Page</label></p>
+                <p><input type="radio" name="question3" id="Zuckerburg" value="Mark Zuckerburg"><label for="Zuckerburg">(C) Mark Zuckerburg</label></p>
+                <p><input type="radio" name="question3" id="Babbage" value="Charles Babbage"><label for="Babbage">(D) Charles Babbage</label></p>
+            </div>
+
+            <div>
+                <p class="question">4. India lies in which continent ?</p>
+                <p><input type="radio" name="question4" id="Antarctica" value="Antarctica"><label for="Antarctica">(A) Antarctica</label></p>
+                <p><input type="radio" name="question4" id="Europe" value="Europe"><label for="Europe">(B) Europe</label></p>
+                <p><input type="radio" name="question4" id="Asia" value="Asia"><label for="Asia">(C) Asia</label></p>
+                <p><input type="radio" name="question4" id="Africa" value="Africa"><label for="Africa">(D) Africa</label></p>
+            </div>
+
+            <div>
+                <p class="question">5. How many T20 Cricket world cups does India have?</p>
+                <p><input type="radio" name="question5" id="one" value="1"><label for="one">(A) 1</label></p>
+                <p><input type="radio" name="question5" id="two" value="2"><label for="two">(B) 2</label></p>
+                <p><input type="radio" name="question5" id="three" value="3"><label for="three">(C) 3</label></p>
+                <p><input type="radio" name="question5" id="four" value="4"><label for="four">(D) 4</label></p>
+            </div>
+            <div class="btn"><input id="btn" type="button" onclick="check()" value="Submit"></div>
+            
+        </form>
+        <div class="result">
+            <p class="output" id="result"></p>
+            <p class="output" id="final"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(245, 244, 198);
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+header{
+    text-align: center;
+    background-color: rgb(247, 118, 86);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+    font-size: 2.5em;
+    padding: 20px 0px;
+}
+.question{
+    background-color: rgb(132, 182, 248);
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 3px 30px;
+}
+div p input{
+    margin-right:20px;
+
+}
+div{
+    margin-bottom: 70px;
+}
+form div p{
+    padding-left: 50px;
+}
+form div p label{
+    cursor: pointer;
+}
+#btn{
+    background-color: rgb(245, 108, 108);
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    border-top: black solid 3px;
+    padding: 20px;
+}
+#btn:hover{
+    background-color: rgb(165, 6, 6);
+    outline: black solid 1px;
+}
+.output{
+    text-align: center;
+    font-size: 1.5em;
+}
+#final{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+
